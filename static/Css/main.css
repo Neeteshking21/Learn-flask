@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    width: 50vw;
+    text-align: center;
+}
+form{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-top: 2vw;
+    text-align: center;
+}
+form input[type="text"]{
+    height: 4vh;
+    width: 30vw;
+    outline: none;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-bottom: 2px solid blue;
+}
